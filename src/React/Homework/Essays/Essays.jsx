@@ -8,7 +8,14 @@ const Essays = () => {
     <EssaysStyled>
         <h2>Essays</h2>
         <Essay q='S2, What is the difference between Git, Github,and Heroku?'>
-            This is my answer
+            <ul>
+                <li>Git:
+                    Github:
+                    Heroku:
+                    
+                </li>
+            </ul>
+
         </Essay>
         <Essay q='S3, What is the difference between HTML, CSS, and Java?'>
             something else
