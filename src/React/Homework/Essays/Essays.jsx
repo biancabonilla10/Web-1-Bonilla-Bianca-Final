@@ -9,13 +9,10 @@ const Essays = () => {
         <h2>Essays</h2>
         <Essay q='S2, What is the difference between Git, Github,and Heroku?'>
             <ul>
-                <li>Git:
-                    Github:
-                    Heroku:
-                    
-                </li>
+                <li>Git:</li>
+                <li> Github:</li>
+                <li>Heroku: </li>
             </ul>
-
         </Essay>
         <Essay q='S3, What is the difference between HTML, CSS, and Java?'>
             something else
