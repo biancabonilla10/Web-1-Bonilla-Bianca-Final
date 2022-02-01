@@ -31,8 +31,4 @@ const HeaderStyled = styled.header`
         align-items: center;
     }
 
-    .SiteTitle {
-        outline: solid 1px white;
-        flex: 3;
-    }
 `;

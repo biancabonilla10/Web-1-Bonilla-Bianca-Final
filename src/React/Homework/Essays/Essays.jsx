@@ -20,6 +20,16 @@ const Essays = () => {
         <Essay q='S4, What are Single Page Apps and how do the differ from traditional multi-page websites?'>
             yet another
         </Essay> 
+        <Essay q='S5, What are Single Page Apps and how do the differ from traditional multi-page websites?'>
+            <ul>
+                <li><b>Web Designer:</b> Answer</li>
+                <li><b>Front End Developer:</b> Programmer:</li>
+                <li><b>Back End Developer:</b> Programmer:</li>
+            </ul>
+        </Essay> 
+        <Essay q='S6. Distinguish the difference between Site Relative , Document Relative, and Absolute Paths'>
+            <p>Answer will go here</p>
+        </Essay>  
     </EssaysStyled>
     )
 }
