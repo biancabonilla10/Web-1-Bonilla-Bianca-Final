@@ -23,5 +23,4 @@ const SiteTitleStyled = styled.div`
         font-size: 14px;
         color: #a3fcfc;
     }
-    
 `;
