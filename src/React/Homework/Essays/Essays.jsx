@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { PollingWatchKind } from 'typescript';
 
 import Essay from './Essay.jsx';
 
@@ -28,7 +29,14 @@ const Essays = () => {
             </ul>
         </Essay> 
         <Essay q='S6. Distinguish the difference between Site Relative , Document Relative, and Absolute Paths'>
-            <p>Answer will go here</p>
+        <ul>
+            <li><b>Site Relative:</b> Answer</li>
+            <li><b>Document Relative:</b> Answer</li>
+            <li><b>Absolute Paths:</b> Answer</li>
+        </ul>
+    </Essay>
+    <Essay q= 'What is the difference between jpg, gif, png, and SVG images?'>
+        <p>Answer here</p>
         </Essay> 
     </EssaysStyled>
     )
