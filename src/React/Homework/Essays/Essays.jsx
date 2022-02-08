@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { PollingWatchKind } from 'typescript';
 
 import Essay from './Essay.jsx';
 
@@ -36,6 +35,9 @@ const Essays = () => {
         </ul>
     </Essay>
     <Essay q= 'What is the difference between jpg, gif, png, and SVG images?'>
+        <p>Answer here</p>
+        </Essay>
+    <Essay q= 'Define the following roles: Project Manager, Business Analyst, Scrum ETC.?'>
         <p>Answer here</p>
         </Essay> 
     </EssaysStyled>
