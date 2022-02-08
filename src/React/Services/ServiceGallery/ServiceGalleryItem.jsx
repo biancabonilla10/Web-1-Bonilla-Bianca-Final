@@ -1,14 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import ServiceGalleryItem from './ServiceGalleryItem.jsx';
 
-const ServiceGalleryItem = () => {
+const ServiceGalleryItem = ({service}) => {
 
     return (
         <ServiceGalleryItemStyled className='ServiceGalleryItem'>
-            ServiceGalleryItem 
-            <ServiceGalleryItem />
+            <img src={ service.image } alt={ service.title } />
+            <h3>{ service.title } :: { service.category }</h3>
         </ServiceGalleryItemStyled>
     );
 }
