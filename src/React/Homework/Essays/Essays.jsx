@@ -40,6 +40,9 @@ const Essays = () => {
     <Essay q= 'Define the following roles: Project Manager, Business Analyst, Scrum ETC.?'>
         <p>Answer here</p>
         </Essay> 
+    <Essay q= 'What is considered the right size format for an image or video asset?'>
+        <p>Answer here</p>
+        </Essay> 
     </EssaysStyled>
     )
 }
