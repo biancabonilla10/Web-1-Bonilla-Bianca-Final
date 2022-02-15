@@ -41,6 +41,9 @@ const Essays = () => {
         <p>Answer here</p>
         </Essay> 
     <Essay q= 'What is considered the right size format for an image or video asset?'>
+        <p>Whatever size with the fastest download and best quality</p>
+        </Essay> 
+    <Essay q= 'What does it mean for a company to be Agile? What are the pros and cons to being Agile?'>
         <p>Answer here</p>
         </Essay> 
     </EssaysStyled>
