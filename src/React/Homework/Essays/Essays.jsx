@@ -46,6 +46,9 @@ const Essays = () => {
     <Essay q= 'What does it mean for a company to be Agile? What are the pros and cons to being Agile?'>
         <p>Answer here</p>
         </Essay> 
+        <Essay q= 'What are testing environments?'>
+        <p>Answer here</p>
+        </Essay> 
     </EssaysStyled>
     )
 }

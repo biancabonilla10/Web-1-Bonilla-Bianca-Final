@@ -14,7 +14,7 @@ const Lightbox = ({title, activeContent, modalContent}) => {
             <ActiveArea activeContent={ activeContent } showModalUpdate={ showModalUpdate } />
             {
                 showModal &&
-            <Modal title={ title } modalContent={ modalContent } />
+                <Modal title={ title } modalContent={ modalContent } showModalUpdate={ showModalUpdate } />
             }
         </LightboxStyled>
     );
