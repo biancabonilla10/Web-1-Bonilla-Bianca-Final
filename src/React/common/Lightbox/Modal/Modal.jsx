@@ -20,7 +20,7 @@ const Modal = ({title, modalContent, showModalUpdate}) => {
 
         /* dismounts ---------------------------*/
         return () => {
-            document.removeEventListener("keydown", handleOneKeyDown);
+            document.removeEventListener("keydown", handleOnKeyDown);
         }
 
 
