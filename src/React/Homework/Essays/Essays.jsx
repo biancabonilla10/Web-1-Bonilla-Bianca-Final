@@ -46,7 +46,17 @@ const Essays = () => {
     <Essay q= 'What does it mean for a company to be Agile? What are the pros and cons to being Agile?'>
         <p>Answer here</p>
         </Essay> 
-        <Essay q= 'What are testing environments?'>
+        <Essay q= 'What are testing environments? What is the difference between Local, Dev, QA, and Production?'>
+        <p>A testing enbironment is:</p>
+
+        <ul>
+            <li><b>Local:</b></li>
+            <li><b>Dev:</b></li>
+            <li><b>QA:</b>Quality Assurance Testing</li>
+            <li><b>Production:</b></li>
+        </ul>
+        </Essay> 
+        <Essay q= 'S12 Function vs Form: When are web images considered part of the content: (HTML) as opposed to part of the appearance (CSS)?'>
         <p>Answer here</p>
         </Essay> 
     </EssaysStyled>
