@@ -1,5 +1,9 @@
-import React from 'react';
+import React, { useReducer } from 'react';
 import styled from 'styled-components';
+
+/* Context ---------------------------*/
+import Context from './Context/index.js';
+import reducer from './Context/reducer.js';
 
 /* Components ---------------------------*/
 import Form from './Form.jsx';
@@ -10,15 +14,31 @@ export { default as Input } from './Controls/Input.jsx';
 export { default as Textarea } from './Controls/Textarea.jsx';
 export { default as SubmitButton } from './Controls/SubmitButton.jsx';
 
-const UniversalForm = ({children}) => {
+const UniversalForm = ({children, apiUrl, onSubmit}) => {
+
+    const defaultFormData = {
+        apiUrl: apiUrl,
+        onSubmit: onSubmit,
+        payload: {},
+        feedback: {
+            show: false,
+            type: 'pending',
+            message: '',
+        },
+        fields: [],
+    };
+
+    const [state, dispatch] = useReducer(reducer,defaultFormData);
 
     return (
-        <UniversalFormStyled className='UniversalForm'>
-            <Feedback />
-            <Form>
-            {children} 
-            </Form>
-        </UniversalFormStyled>
+        <Context.Provider value={ {state,dispatch} } displayName='Universal Form'>
+            <UniversalFormStyled className='UniversalForm'>
+                <Feedback />
+                <Form>
+                    { children }  
+                </Form>
+            </UniversalFormStyled>
+        </Context.Provider>
     );
 }
 
