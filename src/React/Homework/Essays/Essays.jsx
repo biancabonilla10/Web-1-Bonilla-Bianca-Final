@@ -49,16 +49,19 @@ const Essays = () => {
         <Essay q= 'What are testing environments? What is the difference between Local, Dev, QA, and Production?'>
         <p>A testing enbironment is:</p>
 
-        <ul>
-            <li><b>Local:</b></li>
-            <li><b>Dev:</b></li>
-            <li><b>QA:</b>Quality Assurance Testing</li>
-            <li><b>Production:</b></li>
-        </ul>
-        </Essay> 
-        <Essay q= 'S12 Function vs Form: When are web images considered part of the content: (HTML) as opposed to part of the appearance (CSS)?'>
-        <p>Answer here</p>
-        </Essay> 
+                <ul>
+                    <li><b>Local:</b></li>
+                    <li><b>Dev:</b></li>
+                    <li><b>QA:</b>Quality Assurance Testing</li>
+                    <li><b>Production:</b></li>
+                </ul>
+            </Essay> 
+            <Essay q= 'S12 Function vs Form: When are web images considered part of the content: (HTML) as opposed to part of the appearance (CSS)?'>
+                <p>Answer here</p>
+            </Essay> 
+            <Essay q="S13. What is the difference between ID's, Classes and Tags? How does Specificity play a role in the selection of HTML elements (both in CSS and JS)">
+                <p>Answer will go here for Monday.</p>
+            </Essay>
     </EssaysStyled>
     )
 }
