@@ -101,7 +101,10 @@ JPG images are commonly used images that can easily be saved and downloaded. JPG
             </ul>
             </Essay>
             <Essay q="S14. What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?">
-                <p>Answer will go here for Thursday.</p>
+                <p>A CSS preprocessor is a program that allows CSS to be created from the programs individual syntax. Some examples are Sass which stands for syntaxically awesome style sheets and LESS which stands for leaner style sheets. Styled components are a library in React that let users create component-level styles within the code. Styled components violate the seperation of concerns because it creates extremely long style sheets.  </p>
+            </Essay>
+            <Essay q="S15. Final Project Essay">
+                <p>Answer here Monday </p>
             </Essay>
     </EssaysStyled>
     )
