@@ -18,18 +18,16 @@ const Login = () => {
                 onSubmit={ onSubmitHandler } 
             >
                 <Input 
-                    type='text'
+                    type='Text'
                     label='Username'
                     id='username'
-                    placeholder= 'user@domain.com'
-                    rules={ ['required, email'] } 
+                    placeholder='user@domain.com'
+                    rules={ ['required', 'email'] } 
                 />
                 <Input
                     type='password'
                     label='Password'
                     id='password'
-                    rules='required'
-                    placeholder='password'
                     rules={ ['required'] } 
                 />
                 <SubmitButton>Log In</SubmitButton>

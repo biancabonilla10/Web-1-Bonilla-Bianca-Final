@@ -8,7 +8,7 @@ import { addField, updateField } from '../Context/actions.js';
 /* Components ---------------------------*/
 import ControlGroup from './ControlGroup/ControlGroup.jsx';
 
-const Input = ({label, id, placeholder, value='', rules=[]}) => {
+const Input = ({label, id, placeholder, value='', type='text', rules=[]}) => {
 
     const { dispatch, state } = useContext(Context);
 
@@ -33,6 +33,7 @@ const Input = ({label, id, placeholder, value='', rules=[]}) => {
             <ControlGroup id={ id } label={ label }>
                 <input 
                 id={ id }
+                type={ type }
                 placeholder={ placeholder }
                 value={ thisField ? thisField.value : value }
                 onChange={ handleOnChange }
