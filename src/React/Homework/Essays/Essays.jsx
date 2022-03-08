@@ -104,7 +104,10 @@ JPG images are commonly used images that can easily be saved and downloaded. JPG
                 <p>A CSS preprocessor is a program that allows CSS to be created from the programs individual syntax. Some examples are Sass which stands for syntaxically awesome style sheets and LESS which stands for leaner style sheets. Styled components are a library in React that let users create component-level styles within the code. Styled components violate the seperation of concerns because it creates extremely long style sheets.  </p>
             </Essay>
             <Essay q="S15. Final Project Essay">
-                <p>Answer here Monday </p>
+                <p>I will be designing for the company I work for. They are a high end wellness retreat that operates as a hotel where guests come and stay at for a week or more. They offer a variety of services including cryotherapy, IVs, chiropractors, hiking, personal training, massages, and spa treatments.
+The purpose of the website is to show all the activities, services, treatments, and facilities offered. There will also be a gallery of images showing the property as it is a great ranch located in the Malibu mountains.
+I chose this subject because eventually I would like to work on their company website and they are a business I know a lot about.
+ </p>
             </Essay>
     </EssaysStyled>
     )
