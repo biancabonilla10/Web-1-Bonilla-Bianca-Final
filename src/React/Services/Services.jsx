@@ -17,7 +17,7 @@ const Services = () => {
 
     return (
         <ServicesStyled className='Services'>
-            <h1>Services</h1>
+            <h1></h1>
             <ServiceMenu categories={ servicesData.categories } chosenCategory={ chosenCategory } chosenCategoryUpdate={ chosenCategoryUpdate } />
             <ServiceGallery services={ servicesData.services } chosenCategory={ chosenCategory } chosenCategoryUpdate={ chosenCategoryUpdate } />
         </ServicesStyled>

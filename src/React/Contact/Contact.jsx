@@ -12,7 +12,7 @@ const Contact = () => {
 
     return (
         <ContactStyled className='Contact'>
-            <h1>Contact</h1>
+            <h1></h1>
             <UniversalForm
                 apiUrl='/email/send'
                 onSubmit={ onSubmitHandler }

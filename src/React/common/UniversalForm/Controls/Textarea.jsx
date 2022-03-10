@@ -56,10 +56,10 @@ const TextareaStyled = styled.div`
         resize: none;
 
         &.focus {
-            background-color: #eee;
+            background-color: darkslategrey;
         }
         &.error {
-            border: solid 2px red;
+            border: solid 2px darkslategrey;
         }
     }
 `;

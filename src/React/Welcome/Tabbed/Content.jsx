@@ -21,7 +21,7 @@ export default Content;
 const ContentStyled = styled.div`
     display: flex;
     padding: 20px;
-    background-color: teal;
+    background-color: silver;
 
     .left {
         flex: 1;

@@ -12,7 +12,7 @@ const Login = () => {
 
     return (
         <LoginStyled className='Login'>
-            <h1>Login</h1>
+            <h1></h1>
             <UniversalForm
                 apiUrl='/email/send'
                 onSubmit={ onSubmitHandler } 
@@ -39,5 +39,8 @@ const Login = () => {
 export default Login;
 
 const LoginStyled = styled.div`
-    
+    display: flex;
+    padding: 100px;
+    background-color: whitesmoke;
+
 `;

@@ -31,7 +31,7 @@ const FeedbackStyled = styled.div`
     margin-bottom: 30px;
 
     &.error {
-        background-color: #f9c76b;
+        background-color: lightgreen;
     }
     &.success {
         background-color: #7df9a8;

@@ -19,8 +19,8 @@ const SubmitButtonStyled = styled.div`
     text-align: right;
 
     button {
-        background-color: teal;
-        color: #fff;
+        background-color: silver;
+        color: darkslategrey;
         padding: 10px 20px;
         border-radius: 5px;
         border: none;

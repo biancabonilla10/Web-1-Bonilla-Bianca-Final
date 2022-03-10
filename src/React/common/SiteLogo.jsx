@@ -3,15 +3,15 @@ import styled from 'styled-components';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
-    faHotTub,
+    faLeaf,
 } from '@fortawesome/free-solid-svg-icons';
-<FontAwesomeIcon icon={ faHotTub } />
+<FontAwesomeIcon icon={ faLeaf } />
 
 const SiteLogo = () => {
 
     return (
         <SiteLogoStyled className='SiteLogo'>
-            <FontAwesomeIcon icon={ faHotTub } className='hot-tub-icon' />
+            <FontAwesomeIcon icon={ faLeaf } className='leaf-icon' />
         </SiteLogoStyled>
     );
 }
@@ -19,11 +19,11 @@ const SiteLogo = () => {
 export default SiteLogo;
 
 const SiteLogoStyled = styled.div`
-color: #13bbbb;
+color: darkslategray;
 width: 100%;
 height: 100%;
 
-svg.hot-tub-icon {
+svg.leaf-icon {
     width: 100px;
     height: auto;
 }

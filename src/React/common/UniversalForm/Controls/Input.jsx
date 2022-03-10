@@ -57,7 +57,7 @@ const InputStyled = styled.div`
             background-color: #eee;
         }
         &.error {
-            border: solid 2px red;
+            border: solid 2px whitesmoke;
         }
     }
 `;
