@@ -1,34 +1,34 @@
 export const staffData = [
     {
         image: '/assets/img/Staff/staff-1.jpeg',
-        name: 'George',
+        name: 'Program Guides',
     },
     {
         image: '/assets/img/Staff/staff-2.jpeg',
-        name: 'Sherry',
+        name: 'Administration',
     },
     {
         image: '/assets/img/Staff/staff-3.jpeg',
-        name: 'Laura',
+        name: 'Garden',
     },
     {
         image: '/assets/img/Staff/staff-4.jpeg',
-        name: 'Jan',
+        name: 'Massage',
     },
     {
         image: '/assets/img/Staff/staff-5.jpeg',
-        name: 'Susan',
+        name: 'Fitness Instructors',
     },
     {
         image: '/assets/img/Staff/staff-6.jpeg',
-        name: 'Claire',
+        name: 'Yoga Instructors',
     },
     {
         image: '/assets/img/Staff/staff-7.jpeg',
-        name: 'Steph',
+        name: 'Nurses',
     },
     {
         image: '/assets/img/Staff/staff-8.jpeg',
-        name: 'Tracy',
+        name: 'Chiropractors',
     },
 ];

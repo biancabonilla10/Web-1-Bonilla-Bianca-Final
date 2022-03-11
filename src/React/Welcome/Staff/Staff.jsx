@@ -11,7 +11,7 @@ const Staff = () => {
 
     return (
         <StaffStyled className='Staff'>
-            <h3>Meet Our Team</h3>
+            <h3></h3>
             <div className="wrapper">
             {
                 staffData.map((member, idx) => {
@@ -34,5 +34,4 @@ const StaffStyled = styled.div`
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-    }
 `;
