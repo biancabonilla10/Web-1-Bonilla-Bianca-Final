@@ -109,6 +109,11 @@ The purpose of the website is to show all the activities, services, treatments, 
 I chose this subject because eventually I would like to work on their company website and they are a business I know a lot about.
  </p>
             </Essay>
+            <Essay q="S16, What is the difference between Web Hosts, Domains, and FTP?
+ ">
+                <p> Web Hosts are the location where the website is stored. Some examples of web hosts are bluehost and greenhost. A domain is the address where the website belongs so users may find access to the site. An FTP stands for file transfer protocol and serves as a transfer of files and information from a server to a user on their device.
+ </p>
+            </Essay>
     </EssaysStyled>
     )
 }
