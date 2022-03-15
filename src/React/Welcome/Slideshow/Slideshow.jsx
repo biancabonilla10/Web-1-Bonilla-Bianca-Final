@@ -33,5 +33,6 @@ const SlideshowStyled = styled.div`
     
     .carousel .slide .legend {
         background-color: whitesmoke;
+        display: none;
     }
 `;
