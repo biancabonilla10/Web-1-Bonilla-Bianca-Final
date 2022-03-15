@@ -114,6 +114,9 @@ I chose this subject because eventually I would like to work on their company we
                 <p> Web Hosts are the location where the website is stored. Some examples of web hosts are bluehost and greenhost. A domain is the address where the website belongs so users may find access to the site. An FTP stands for file transfer protocol and serves as a transfer of files and information from a server to a user on their device.
  </p>
             </Essay>
+            <Essay q="S17, What is a package manager? How does it play a role in software development?">
+                <p> A package manager is a tool that helps users know what software is downloaded on their computer. Package managers help with feautres like fixing bugs, updates, new versions and aid to keep the code smooth without breaking. They are helpful in controlling dependencies and controlling versions and software updates within teams. </p>
+            </Essay>
     </EssaysStyled>
     )
 }
