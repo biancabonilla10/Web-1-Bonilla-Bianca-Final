@@ -29,7 +29,8 @@ const MainMenuStyled = styled.div`
         display: block;
         color: darkslategrey;
         margin: 5px 0px;
-        background-color: silver;
+        background-color: whitesmoke;
+        opacity: 65%;
         height: 50px;
         line-height: 55px;
         text-decoration: none;
@@ -52,10 +53,10 @@ const MainMenuStyled = styled.div`
         justify-content: center;
         a {
             display: inline-block;
-            width: 150px;
+            width: 200px;
             margin: 0px 10px;
-            font-size: 16px;
-            border-radius: 5px;
+            font-size: 18px;
+            border-radius: 2px;
         }
     }
 `;

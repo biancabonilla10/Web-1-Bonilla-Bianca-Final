@@ -22,6 +22,7 @@ const ServiceMenuItemStyled = styled.div`
     width: 150px;
     font-size: 18px;
     border-bottom: solid 5px silver;
+    opacity: 75%;
     line-height: 40px;
     text-align: center;
     margin: 5px;

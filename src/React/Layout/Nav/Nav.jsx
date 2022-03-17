@@ -33,7 +33,7 @@ const Nav = () => {
 export default Nav;
 
 const NavStyled = styled.nav`
-    background-color: darkslategrey;
+    background-color: darkgray;
     padding: 20px;
     color: white;
 `;

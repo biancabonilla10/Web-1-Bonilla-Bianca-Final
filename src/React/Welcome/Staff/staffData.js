@@ -17,7 +17,7 @@ export const staffData = [
     },
     {
         image: '/assets/img/Staff/staff-5.jpeg',
-        name: 'Fitness Instructors',
+        name: 'Fitness',
     },
     {
         image: '/assets/img/Staff/staff-6.jpeg',

@@ -27,7 +27,7 @@ const HeaderStyled = styled.header`
 
     .row {
         display: flex;
-        width: 420px;
+        width: 480px;
         align-items: center;
     }
 
