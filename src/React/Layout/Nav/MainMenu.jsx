@@ -29,7 +29,6 @@ const MainMenuStyled = styled.div`
         display: block;
         color: darkslategrey;
         margin: 5px 0px;
-        background-color: whitesmoke;
         opacity: 65%;
         height: 50px;
         line-height: 55px;
@@ -41,6 +40,7 @@ const MainMenuStyled = styled.div`
 
         &:hover {
             background-color: whitesmoke;
+            opacity: 75%;
         }
         &:active {
             color: #007373;

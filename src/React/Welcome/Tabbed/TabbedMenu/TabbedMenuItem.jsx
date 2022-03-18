@@ -21,11 +21,11 @@ export default TabbedMenuItem;
 const TabbedMenuItemStyled = styled.div`
     background-color: gray;
     color: silver;
-    width: 150px;
+    width: 200px;
     text-align: center;
     cursor: pointer;
     border-radius: 5px 5px 0px 0px;
-    line-height: 40px;
+    line-height: 50px;
     margin-right: 5px;
 
     &.selected {
